@@ -1,0 +1,443 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/*Horizontal Navigation*/
+.homenav{
+    width: 100%;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    height: 75px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+}
+
+/*Logo styling*/
+.logo{
+    margin: 5px 5px 5px 5px;
+    text-align: left;
+    float: left;
+}
+
+/*Main Navigation list styling*/
+
+.mainlist{
+    list-style: none;
+    margin: 5px 5px 5px 5px;
+    text-align: right;
+    float: right;
+}
+
+.mainlist ul{
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+
+.mainlist li{
+    display: inline;
+    color: #FFFFFF;
+    margin-right: 25px;
+}
+
+.mainlist a {
+    display:inline-block;
+    padding: 10px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+img.ll{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.ll a{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    display: inline;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.smoothscroll{
+    text-decoration: none;
+}
+
+a.smoothscroll:link{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+a.smoothscroll:visited{
+    color: #FFFFFF;
+}
+
+a.smoothscroll:hover{
+    color: #95002B;
+}
+
+a.smoothscroll:active{
+    color: #FFFFFF;
+}
+
+/*Home page header*/
+
+h1.logo{
+    width: 100%;
+    font-family: 'Sahitya', serif;
+    font-size:  40px;
+    padding: 0px;
+    top: 200px;
+    margin-bottom: 0;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #FFFFFF;
+}
+
+img.slide1{
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+}
+
+/*Hero Image area*/
+
+div.homeone{
+    margin: 0px;
+    width: 100%;
+    float: left;
+    background: url('../images/hscheader.jpg') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    
+}
+
+img.home{
+    float: left;
+    padding: 0px;
+    width: 30%;
+    height: 250px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0px;
+}
+
+/*About HSC styling*/
+
+div.hometwo{
+    margin-top: 20px;
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+}
+
+h1.reg{
+    font-family: 'Muli', sans-serif;
+    font-size:  40px;
+    text-align: center;
+    padding: 0px;
+}
+
+p.reg{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding: 1px;
+    word-spacing: 2px;
+}
+
+
+/*About Hinduism styling*/ 
+div.about-hinduism{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    position: relative;
+    /*background-color: #C58366;*/
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,.7)), url('../images/about_hindu.jpg') no-repeat left scroll;
+    margin-bottom: 20px;
+}
+
+div.about-hinduism-text{
+    margin-top: 30px;
+    float: left;
+    width: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+h1.about{
+    font-family: 'Muli', sans-serif;
+    font-size:  40px;
+    text-align: left;
+    padding: 0px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+p.about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    text-align: left;
+    padding: 1px;
+    word-spacing: 2px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+
+/*Meet the Board styling*/
+
+div.board{
+    height: 1250px;
+    margin-top: 5%;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.board a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+div.board-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+    float: left;
+    position: relative;
+}
+
+div.image-container{
+    float: left;
+    position: relative;
+    width: 300px;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+img.board-image{
+    width: 300px;
+    height: 250px;
+}
+
+.image-overlay-text{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: #000000;
+    display: none;
+    opacity: .5;
+    color: #FFFFFF;
+}
+
+div.mod{
+    float: left;
+    position: relative;
+    width: 60%;
+}
+
+/*About Hindu image*/
+img.about{
+    float: right;
+    position: relative;
+    margin-right: 175px;
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+/*Bhajans section styling*/
+
+div.bhajans{
+    float: left;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,.6)), url('../images/bhajans_background.jpg') no-repeat center scroll;
+    padding: 20px;
+}
+
+div.colbhaj1{
+    margin-top:30px;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+h1.bhaj{
+    font-family: 'Muli', sans-serif;
+    font-size:  40px;
+    text-align: right;
+    padding: 0px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+p.bhajs{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    text-align: left;
+    padding: 1px;
+    word-spacing: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+p.bhaj{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 4px;
+    word-spacing: 3px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.bhajanBookLink a{
+    text-decoration: none;
+    color: #000000;
+}
+
+p.board{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+/*footer styling*/
+#footer{
+    height: 150px;
+    background-color: #000000;
+    width: 100%;
+    float: left;
+    margin-top: 0;
+}
+
+#footer a:hover {
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+background-color:transparent;
+}
+#footer a{
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+padding:20px;
+}
+
+#icons{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10px;
+}
+
+img.foot_icons{
+    width: 100px;
+    height: 100px;
+}
+
+/*Ask form*/
+
+div.form{
+    height: 500px;
+    margin-top: 5%;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.fstyle{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: 'Open Sans', sans-serif;;
+    padding: 10px 10px 15px 10px;
+    color: #000000;
+}
+.nameinput{
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    word-spacing: 2px;
+    color: #000000;
+    
+}
+.submit{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    font-size: medium;
+    cursor:pointer;
+    margin-top: 10%;
+    margin-right: 2%;
+}
+
+
+
+
+
+/*Modal styling*/
+
+p.mod{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+}
+
+
+h1.mod{
+    font-family: 'Muli', sans-serif;
+    font-size:  20px;
+    text-align: left;
+    padding: 0px;
+    color: #000000;
+    display: inline;
+}
+
+
